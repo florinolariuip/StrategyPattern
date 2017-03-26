@@ -1,6 +1,6 @@
 package DemoAfter;
 
-public class MrsSalutionStrategy implements ISalutationStrategy {
+public class MrsSalutationStrategy implements ISalutationStrategy {
 
 	@Override
 	public String salutation() {

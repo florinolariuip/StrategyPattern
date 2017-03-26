@@ -7,7 +7,8 @@ public class SalutationContext {
 	
 	public SalutationContext(){
 		salutationMap.put(Title.Mr, new MrSalutionStrategy());
-		salutationMap.put(Title.Mrs, new MrsSalutionStrategy());
+		salutationMap.put(Title.Mrs, new MrsSalutationStrategy());
+		salutationMap.put(Title.Doctor, new DoctorSalutationStrategy());
 	}
 	
 	public String doExecute(Title title){
